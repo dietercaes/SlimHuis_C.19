@@ -83,7 +83,7 @@ def check_buttons():
             check_for_press(i, dictionary)
 
 
-def check_for_press(i, d):
+def check_for_press(index, d):
     press_type = check_press_type(index, d)
     i = check_corresponding_relay(index)
     state = check_state(i, d)
